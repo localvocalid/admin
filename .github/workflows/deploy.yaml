@@ -23,5 +23,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: localvocalid-admin
-          entrypoint: main.js
-          root: dist
+          entrypoint: server/main.ts
